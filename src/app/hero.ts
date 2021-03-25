@@ -5,4 +5,5 @@ export interface Hero{
     poder: string;
     identidad: string;
     universo: string;
+
 }
