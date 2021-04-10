@@ -1,4 +1,4 @@
-import { identifierModuleUrl } from '@angular/compiler';
+
 import { Component, OnInit } from '@angular/core';
 import {Hero} from '../hero';
 

@@ -30,7 +30,9 @@
             <input id="hero-identidad" [(ngModel)]="selectedHero.identidad" placeholder="identidad">
             </div>
         <div>
-            <label for="hero-universo"> UNICERSO DEL HEROE: </label>
+            <label for="hero-universo"> UNIVERSO DEL HEROE: </label>
             <input id="hero-universo" [(ngModel)]="selectedHero.universo" placeholder="universo">
             </div>    
+
+            <app-hero-detail [hero]="selectedHero"></app-hero-detail>
         
